@@ -1,0 +1,2 @@
+Experiment,Robot,Success,Swingup Time [s],Final Pos Error [deg],Final Jitter [rad/s],Energy [J],Max Torque [Nm],Int. Torque [Nm],Torque Cost [N^2m^2],Torque Smoothness [Nm],Velocity Cost [m^2/s^2]
+baseline,Pendubot,Yes,5.508,5.07,0.004,243.67,10.0,27.89,211.15,2.327,1072.7

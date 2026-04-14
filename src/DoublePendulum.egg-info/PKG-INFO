@@ -1,0 +1,91 @@
+Metadata-Version: 2.4
+Name: DoublePendulum
+Version: 1.0.0
+Home-page: https://github.com/dfki-ric-underactuated-lab
+Author: Underactuated Lab DFKI Robotics Innovation Center Bremen
+Classifier: Development Status :: 5 - Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Academic Usage
+Classifier: Programming Language :: Python
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: sympy
+Requires-Dist: scikit-learn
+Requires-Dist: cma
+Requires-Dist: lxml
+Requires-Dist: mini-cheetah-motor-driver-socketcan
+Requires-Dist: tabulate
+Requires-Dist: filterpy
+Requires-Dist: dill
+Requires-Dist: argparse
+Requires-Dist: opencv-python
+Requires-Dist: pyyaml
+Requires-Dist: cython<1.0.0
+Provides-Extra: all
+Requires-Dist: sphinx; extra == "all"
+Requires-Dist: sphinx-rtd-theme; extra == "all"
+Requires-Dist: numpydoc; extra == "all"
+Requires-Dist: pytest; extra == "all"
+Requires-Dist: lark; extra == "all"
+Requires-Dist: inputs; extra == "all"
+Requires-Dist: drake; extra == "all"
+Requires-Dist: meshcat; extra == "all"
+Requires-Dist: gymnasium; extra == "all"
+Requires-Dist: stable_baselines3==2.3.2; extra == "all"
+Requires-Dist: jax[cuda12]; extra == "all"
+Requires-Dist: jaxlib; extra == "all"
+Requires-Dist: flax; extra == "all"
+Requires-Dist: tqdm; extra == "all"
+Requires-Dist: optax; extra == "all"
+Requires-Dist: torch; extra == "all"
+Requires-Dist: evotorch; extra == "all"
+Requires-Dist: shimmy; extra == "all"
+Requires-Dist: cloudpickle==3.0.0; extra == "all"
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx-rtd-theme; extra == "doc"
+Requires-Dist: numpydoc; extra == "doc"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: lark; extra == "test"
+Provides-Extra: gamepad
+Requires-Dist: inputs; extra == "gamepad"
+Provides-Extra: direct-collocation
+Requires-Dist: drake; extra == "direct-collocation"
+Requires-Dist: meshcat; extra == "direct-collocation"
+Provides-Extra: tvlqr-drake
+Requires-Dist: drake; extra == "tvlqr-drake"
+Provides-Extra: mcpilco
+Provides-Extra: sac
+Requires-Dist: gymnasium; extra == "sac"
+Requires-Dist: stable_baselines3==2.3.2; extra == "sac"
+Provides-Extra: dqn
+Requires-Dist: jax; extra == "dqn"
+Requires-Dist: jaxlib; extra == "dqn"
+Requires-Dist: flax; extra == "dqn"
+Requires-Dist: gymnasium; extra == "dqn"
+Requires-Dist: tqdm; extra == "dqn"
+Requires-Dist: optax; extra == "dqn"
+Provides-Extra: areapo
+Requires-Dist: gymnasium; extra == "areapo"
+Requires-Dist: stable_baselines3==2.3.2; extra == "areapo"
+Provides-Extra: historysac
+Requires-Dist: torch; extra == "historysac"
+Requires-Dist: gymnasium; extra == "historysac"
+Requires-Dist: stable_baselines3==2.3.2; extra == "historysac"
+Provides-Extra: evolsac
+Requires-Dist: evotorch; extra == "evolsac"
+Provides-Extra: acados
+Provides-Extra: prx
+Provides-Extra: vimppi
+Requires-Dist: torch; extra == "vimppi"
+Requires-Dist: gymnasium; extra == "vimppi"
+Requires-Dist: stable_baselines3==2.3.2; extra == "vimppi"
+Requires-Dist: jax[cuda12]; extra == "vimppi"
+Dynamic: author
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
